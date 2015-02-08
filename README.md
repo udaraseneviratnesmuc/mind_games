@@ -2,3 +2,5 @@
 mind games section
 
 Initial checkout in Desktop
+
+sdmfhfsdjhf
