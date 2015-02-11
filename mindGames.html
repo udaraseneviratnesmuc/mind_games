@@ -1,36 +1,52 @@
 <html>
 	<head>
 		<title>Mind Games</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		
 	</head>
 
 	<body>
-		<div id="subcontent1">
-			<div id="gamingZone">
-				<p id="mathematicalStatement"></p>
-				<!--<p id="result"></p> -->
-				<input type="text" id="answer"/>
-			</div>
-			<div id="scorecard">
-				<p>Your Answer is <br><span id="correctness"></span></p>
-				<p>Your Score is <br><span id="marks"></span></p>
-				<p>Your Level is <br><span id="level"></span></p>
-			</div>
+		<!-- <div id="subcontent1"> -->
+		<div id="gamingZone">
+			<p id="mathematicalStatement"></p>
+			<!--<p id="result"></p> -->
+			<input type="text" id="answer"/>
 		</div>
+		<div id="scorecard">
+			<p id="correctness_para">Your Answer is <br><span id="correctness"></span></p>
+			<p id="marks_para">Your Score is <br><span id="marks"></span></p>
+			<p id="level_para">Your Level is <br><span id="level"></span></p>
+			<p id="attempts_para">Total Attempts are <br><span id="attempts"></span></p>
+		</div>
+		<!-- </div> -->
 		<div id="start_btn_div">
 			<input type="button" id="start_btn" value = "Start"/>
+			<input type="button" id="reset_btn" value = "Reset"/>
+		</div>
+		<div id="numPad">
+			<input type="button" value="1" class="numBtn" />
+			<input type="button" value="2" class="numBtn" />
+			<input type="button" value="3" class="numBtn" />
+			<input type="button" value="4" class="numBtn" />
+			<input type="button" value="5" class="numBtn" />
+			<input type="button" value="6" class="numBtn" />
+			<input type="button" value="7" class="numBtn" />
+			<input type="button" value="8" class="numBtn" />
+			<input type="button" value="9" class="numBtn" />
+			<input type="button" value="Enable" class="numBtn" />
+			<input type="button" value="0" class="numBtn" />
+			<input type="button" value="DEL" class="numBtn" />
 		</div>
 	</body>
 
 </html>
 
-<script src="NumberRandomizer.js"></script>
-		<script src="MathOperation.js"></script>
-		<script src="MathInterface.js"></script>
-		<script src="ResultsGenerator.js"></script>
-		<script src="JSEventHandlers.js"></script>
-		<script src="MindGamesConfigurations.js"></script>
+		<script src="js/NumberRandomizer.js"></script>
+		<script src="js/MathOperation.js"></script>
+		<script src="js/MathInterface.js"></script>
+		<script src="js/ResultsGenerator.js"></script>
+		<script src="js/JSEventHandlers.js"></script>
+		<script src="js/MindGamesConfigurations.js"></script>
 		<script>
 			
 		</script>
