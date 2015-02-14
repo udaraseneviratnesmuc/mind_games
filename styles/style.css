@@ -1,0 +1,75 @@
+body{
+	font-family:arial;
+	background-image: url('../img/background.jpg');
+	color:white;
+}
+#mathematicalStatement{
+	font-size: 60px
+}
+#gamingZone{
+	text-align: center;
+	width: 80%;
+	float: left;
+}
+#answer{
+	font-size: 40px
+}
+#scorecard{
+	width: 20%;
+	height: 414px;
+	float: right;
+	text-align: center;
+	padding-top: 4%
+}
+#subcontent1{
+
+}
+#correctness{
+	font-size: 25px;
+}
+#correctness_para{
+	
+}
+#marks{
+	font-size: 25px;
+}
+#marks_para{
+	padding-top: 8%;
+}
+#level{
+	font-size: 25px;
+}
+#level_para{
+	padding-top: 8%;
+}
+#attempts{
+	font-size: 25px;
+}
+#attempts_para{
+	padding-top: 8%;
+}
+#start_btn_div{
+	width: 40%;
+	float:	left;
+	padding-left: 31%;
+	padding-top: 7%;
+}
+#start_btn{
+	width: 100px;
+	height: 40px;
+}
+#reset_btn{
+	width: 100px;
+	height: 40px;
+}
+#numPad{
+	width: 40%;
+	text-align: right;
+	float: left;
+	padding-left: 26%;
+	padding-top: 7%
+}
+.numBtn{
+	width :25%;
+	height : 35px;
+}
