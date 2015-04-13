@@ -17,8 +17,5 @@ class Connection{
 
 }
 
-$connection = new Connection();
-$connection -> connectDb();
-
 
 ?>
