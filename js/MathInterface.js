@@ -4,6 +4,7 @@ function MathInterface(){
 MathInterface.prototype.callOperation = function(digitRange, operation, mode){
 	if(resultsGenerator.triggured === false){
 	 	mathInterface.compareResults(document.getElementById('answer').value);
+	 	 document.getElementById('answer').value = "";
 	 	//resultsGenerator.triggured = true;
 	}else{
 		resultsGenerator.triggured = false;
