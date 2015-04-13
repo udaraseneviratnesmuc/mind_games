@@ -11,7 +11,7 @@
 	if($class == "mindCalculus"){
 		$mindCalculus = new MindCalculus();
 		if($method == "signup"){
-			$mindCalculus -> signup($email, $pwd); 	
+			echo $mindCalculus -> signup($email, $pwd); 	
 		}
 	}
 
