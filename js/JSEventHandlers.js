@@ -35,7 +35,9 @@ var startBtn = document.getElementById("start_btn");
 if (startBtn.addEventListener) {
     startBtn.addEventListener("click", function(e){
         if(jsEventHandlers.intervalSwitch == 0){
-            jsEventHandlers.interval = setInterval(function(){ mathInterface.start();}, 5000);
+            jsEventHandlers.interval = setInterval(function(){ 
+                mathInterface.start();
+            }, 5000);
             startBtn.value = "Pause";
             jsEventHandlers.intervalSwitch = 1;
             document.getElementById('answer').disabled = false;
@@ -59,7 +61,9 @@ if (resetBtn.addEventListener) {
         mathInterface.reset();
         document.getElementById('answer').value = "";
         document.getElementById("answer").focus();
-        jsEventHandlers.interval = setInterval(function(){ mathInterface.start();}, 5000);
+        jsEventHandlers.interval = setInterval(function(){ 
+            mathInterface.start();
+        }, 5000);
     }); 
 }
 
