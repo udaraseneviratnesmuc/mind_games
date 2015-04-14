@@ -19,7 +19,8 @@ class Config{
 		    'login_pwd_error' => '3402',
 		    'login_unauothorized' => '3400',
 		    'user_no_exist' => '3404',
-		    'login_email_already_available' => '3423'
+		    'login_email_already_available' => '3423',
+		    'mark_update_success' => '3250'
 		);
 	}
 
